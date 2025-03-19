@@ -1,0 +1,6 @@
+Cinza: #efefef
+Roxo: #820ad1
+Roxo da fonte: #9c41d8
+Preto da fonte: #131313
+Cinza da fonte Fatura: #727683
+Preto da fonte sem negrito: #404040

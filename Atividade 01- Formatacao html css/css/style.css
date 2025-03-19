@@ -1,0 +1,61 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    width: 100%;
+    height: 200px;
+    background-color: #181616;
+}
+
+#menu {
+    width: 100%;
+    min-height: 100px;
+    background-color: #4b4949;
+    display: flex ;
+}
+
+#menu div {
+    flex: 1;
+    background-color: #beb7b5;
+    margin: 20px;
+}
+
+#container-banners {
+    width: 100%;
+    min-height: 350px;
+    background-color: #181616;
+    display: flex;
+}
+
+#container-banners div {
+    flex: 1;
+    background-color: #beb7b5;
+    margin: 20px;
+}
+
+#container-rodape {
+    width: 100%;
+    min-height: 100px;
+    background-color: #4b4949;
+    display: flex;
+}
+
+#rodape-esquerda {
+    flex: 1;
+    background-color: #beb7b5;
+    margin: 20px;
+}
+
+#rodape-central {
+    flex: 1;
+    background-color: #beb7b5;
+    margin: 20px;
+}
+
+#rodape-direita {
+    background-color: #beb7b5;
+    margin: 20px;
+    width: 10%;
+}
