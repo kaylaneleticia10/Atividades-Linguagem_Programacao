@@ -1,21 +1,12 @@
 html{ 
     background-color:#ffaabd;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    position: relative;
-    overflow: hidden;
 }
 button{
-    position: absolute;
+    position: absolute; /*permite que o JavaScript controle sua posição com as coordenadas left e top*/
     padding: 10px 20px;
     font-size: 16px;
-    cursor: pointer;
     border: none;
     background-color: #ff2f57;
     color: #f0f0f0;
     border-radius: 5px;
-    transition: transform 0.2s ease-in-out;
 }
