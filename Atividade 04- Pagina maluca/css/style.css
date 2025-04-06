@@ -1,0 +1,62 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #fff6f0;
+    text-align: center;
+    margin: 0;
+    padding: 20px 60px 60px 60px;
+    overflow-x: hidden;
+    color: #333;
+}
+h1 {
+    color: #ff4d4d;
+    font-size: 40px;
+    margin-top: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+#botoes-container {
+    margin-top: 40px;
+    position: relative;
+    height: 120px;
+}
+#simBtn,
+#naoBtn {
+    padding: 15px 35px;
+    font-size: 22px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} 
+#simBtn:hover,
+#naoBtn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+} 
+#simBtn {
+    background-color: #4caf50;
+    color: white;
+    left: 30%;
+    top: 0;
+}
+#naoBtn {
+    background-color: #f44336;
+    color: white;
+    left: 60%;
+    top: 0;
+}
+#resposta {
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #555;
+}
+#meme {
+    margin: 25px auto 0 auto;
+    display: block;
+    max-width: 180px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+  

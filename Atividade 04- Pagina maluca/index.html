@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Você é esperto?</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>Você é esperto?</h1>
+
+  <div id="botoes-container">
+    <button id="simBtn" onmouseover="fugir()" onfocus="detectaTab()">Sim</button>
+    <button id="naoBtn" onclick="responder()">Não</button>
+  </div>
+
+  <div id="resposta"></div>
+  <img id="meme" src="" alt="" style="display:none">
+
+  <audio id="audioEngano" src="audio/ta-enganando-o-cliente.mp3" preload="auto"></audio>
+  <audio id="audioNazaré" src="audio/risada-da-diva-naza.mp3" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
